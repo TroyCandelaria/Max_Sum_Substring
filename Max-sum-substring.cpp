@@ -37,7 +37,6 @@ int main(int argc, char *argv[]){
         //if positive add to temp value
         if(ref[i] >= 0){
             tempval += ref[i];
-cout << "check: " << tempval << " " << tempstart << " " << tempend << "\n";
         }
         //if negative check if current substring is > max
         else{
